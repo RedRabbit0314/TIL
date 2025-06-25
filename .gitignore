@@ -180,3 +180,4 @@ offload
 knowledge.txt
 uv.lock
 pyproject.toml
+.DS_Store
