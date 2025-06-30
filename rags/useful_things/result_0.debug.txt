@@ -1,0 +1,247 @@
+Attempt 1 Result Content:
+response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "function_call": {
+                  "name": "return_json",
+                  "args": {
+                    "relations": [
+                      {
+                        "id1": 1.0,
+                        "relation": [
+                          "colleagues"
+                        ],
+                        "id2": 2.0,
+                        "positivity": 0.0,
+                        "weight": 5.0
+                      },
+                      {
+                        "relation": [
+                          "colleagues"
+                        ],
+                        "id1": 1.0,
+                        "id2": 3.0,
+                        "positivity": 0.0,
+                        "weight": 5.0
+                      },
+                      {
+                        "relation": [
+                          "source"
+                        ],
+                        "id1": 1.0,
+                        "id2": 4.0,
+                        "positivity": 0.0,
+                        "weight": 3.0
+                      },
+                      {
+                        "id1": 1.0,
+                        "relation": [
+                          "source"
+                        ],
+                        "id2": 5.0,
+                        "positivity": 0.0,
+                        "weight": 3.0
+                      },
+                      {
+                        "relation": [
+                          "colleagues"
+                        ],
+                        "id1": 1.0,
+                        "id2": 6.0,
+                        "positivity": 0.0,
+                        "weight": 7.0
+                      },
+                      {
+                        "relation": [
+                          "adversaries"
+                        ],
+                        "id1": 1.0,
+                        "id2": 7.0,
+                        "positivity": -0.3,
+                        "weight": 4.0
+                      },
+                      {
+                        "relation": [
+                          "adversaries"
+                        ],
+                        "id1": 1.0,
+                        "id2": 8.0,
+                        "positivity": -0.3,
+                        "weight": 4.0
+                      },
+                      {
+                        "relation": [
+                          "source"
+                        ],
+                        "id1": 1.0,
+                        "id2": 10.0,
+                        "positivity": 0.0,
+                        "weight": 3.0
+                      },
+                      {
+                        "relation": [
+                          "allies"
+                        ],
+                        "id1": 4.0,
+                        "id2": 5.0,
+                        "positivity": 0.7,
+                        "weight": 8.0
+                      },
+                      {
+                        "relation": [
+                          "allies"
+                        ],
+                        "id1": 4.0,
+                        "id2": 11.0,
+                        "positivity": 0.8,
+                        "weight": 9.0
+                      },
+                      {
+                        "id1": 5.0,
+                        "relation": [
+                          "allies"
+                        ],
+                        "id2": 11.0,
+                        "positivity": 0.7,
+                        "weight": 8.0
+                      },
+                      {
+                        "id1": 7.0,
+                        "relation": [
+                          "enemies"
+                        ],
+                        "id2": 8.0,
+                        "positivity": -0.9,
+                        "weight": 9.0
+                      },
+                      {
+                        "relation": [
+                          "colleagues"
+                        ],
+                        "id1": 2.0,
+                        "id2": 3.0,
+                        "positivity": 0.5,
+                        "weight": 7.0
+                      }
+                    ],
+                    "characters": [
+                      {
+                        "common_name": "\uad6d\uac00\uc815\ubcf4\uc6d0",
+                        "main_character": true,
+                        "id": 1.0,
+                        "names": [
+                          "\uad6d\uac00\uc815\ubcf4\uc6d0",
+                          "\uad6d\uc815\uc6d0"
+                        ]
+                      },
+                      {
+                        "names": [
+                          "\ubc15\uc120\uc6d0",
+                          "\ubc15\uc120\uc6d0 \uc758\uc6d0"
+                        ],
+                        "main_character": false,
+                        "id": 2.0,
+                        "common_name": "\ubc15\uc120\uc6d0"
+                      },
+                      {
+                        "common_name": "\uc774\uc131\uad8c",
+                        "main_character": false,
+                        "id": 3.0,
+                        "names": [
+                          "\uc774\uc131\uad8c",
+                          "\uc774\uc131\uad8c \uc758\uc6d0"
+                        ]
+                      },
+                      {
+                        "common_name": "\uc138\ub974\uac8c\uc774 \uc1fc\uc774\uad6c",
+                        "main_character": true,
+                        "id": 4.0,
+                        "names": [
+                          "\uc138\ub974\uac8c\uc774 \uc1fc\uc774\uad6c",
+                          "\uc1fc\uc774\uad6c \uc11c\uae30"
+                        ]
+                      },
+                      {
+                        "names": [
+                          "\uae40\uc815\uc740",
+                          "\uae40\uc815\uc740 \uad6d\ubb34\uc704\uc6d0\uc7a5"
+                        ],
+                        "main_character": false,
+                        "id": 5.0,
+                        "common_name": "\uae40\uc815\uc740"
+                      },
+                      {
+                        "names": [
+                          "\uc774\uc885\uc11d",
+                          "\uc774\uc885\uc11d \uad6d\uc815\uc6d0\uc7a5"
+                        ],
+                        "main_character": false,
+                        "id": 6.0,
+                        "common_name": "\uc774\uc885\uc11d"
+                      },
+                      {
+                        "names": [
+                          "\uc774\ub780"
+                        ],
+                        "main_character": false,
+                        "id": 7.0,
+                        "common_name": "\uc774\ub780"
+                      },
+                      {
+                        "common_name": "\uc774\uc2a4\ub77c\uc5d8",
+                        "main_character": false,
+                        "id": 8.0,
+                        "names": [
+                          "\uc774\uc2a4\ub77c\uc5d8"
+                        ]
+                      },
+                      {
+                        "common_name": "\uc774\uc7ac\uba85",
+                        "main_character": false,
+                        "id": 9.0,
+                        "names": [
+                          "\uc774\uc7ac\uba85"
+                        ]
+                      },
+                      {
+                        "names": [
+                          "\uc6b0\ud06c\ub77c\uc774\ub098 \uc815\ubcf4 \ub2f9\uad6d"
+                        ],
+                        "main_character": false,
+                        "id": 10.0,
+                        "common_name": "\uc6b0\ud06c\ub77c\uc774\ub098 \uc815\ubcf4 \ub2f9\uad6d"
+                      },
+                      {
+                        "names": [
+                          "\ub7ec\uc2dc\uc544"
+                        ],
+                        "main_character": true,
+                        "id": 11.0,
+                        "common_name": "\ub7ec\uc2dc\uc544"
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "avg_logprobs": -0.09339029648724724
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1658,
+        "candidates_token_count": 408,
+        "total_token_count": 2066
+      },
+      "model_version": "gemini-2.0-flash-exp"
+    }),
+)
